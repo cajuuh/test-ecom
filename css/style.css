@@ -206,9 +206,6 @@ textarea:focus {
 }
 
 /*Nagivation*/
-#main-nav {
-	padding: 15px 0;
-}
 
 /*Affix*/
 #main-nav.affix {
@@ -225,13 +222,18 @@ textarea:focus {
 }
 
 .navbar {
-	margin:0;
+	margin:5px;
+}
+
+#main-nav .navbar-header img {
+	width: 80%;
 }
 
 #main-nav .navbar-header a {
 	background-color: #01b1d7;
 	color: #fff;
 }
+
 /*Toggle Menu*/
 #main-nav .navbar-toggle {
 	background-color: #01b1d7;
@@ -243,11 +245,11 @@ textarea:focus {
 
 /*Main Menu*/
 #main-nav .navbar-right {
-	margin-top: 10px;
+	margin-top: 1px;
 }
 #main-nav .navbar-right li > a {
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 	line-height: 30px;
 	color: #555;
@@ -258,7 +260,7 @@ textarea:focus {
 
 #main-nav .navbar-right li .dropdown > a{
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 	line-height: 30px;
 	color: #555;
