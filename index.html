@@ -9,7 +9,7 @@
     
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.min">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -61,8 +61,7 @@
 
 					<div class="navbar-collapse collapse" id="ftheme">
 						
-
-						<ul class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right topnav" id="myTopnav">
 							<li>
 								<div class="navbar-header">
 									<img src="images/logo/entrada1Tam_Certo.png"/>
@@ -74,11 +73,7 @@
 								</div>
 							</li>
 							<li><a href="#">Chamada de Artigos</a></li>
-							<li><a href="#">Instruções para Autores</a></li>
-							<li><a href="#">Mapa e Datas</a></li>
-							<li><a href="#">Organização</a></li>
-							<li><a href="#">Comitê Técnico</a></li>
-							<li><a href="#">Inscrições</a></li>
+							
 							<li>
 								<div class="dropdown">
 								<a ng-href="#">Sessões e Artigos</a>
@@ -102,9 +97,9 @@
 								</div>
 							</li>
 							<li><a href="#">contato</a></li>
-							<li class="hidden-sm hidden-xs">
-	                            <a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
-	                        </li>
+							<li id="menu-icon">
+								<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+							</li>
 						</ul>
 					</div>
 
